@@ -1,0 +1,77 @@
+# Compiler files
+cache/
+out/
+
+# Ignores development broadcast logs
+!/broadcast
+/broadcast/*/31337/
+/broadcast/**/dry-run/
+
+# Dotenv file
+.env
+
+# Node modules (if using npm/yarn for frontend or scripts)
+node_modules/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Foundry specific
+lib/
+
+# Coverage files
+coverage/
+coverage.json
+lcov.info
+
+# Gas snapshots
+.gas-snapshot
+
+# Typechain (if using TypeScript)
+typechain/
+typechain-types/
+
+# Hardhat (if migrating from Hardhat)
+artifacts/
+cache_hardhat/
+
+# Documentation build files
+docs/
+
+# Temporary files
+*.tmp
+*.log
+*.lock
+
+# Slither and other analysis tools
+.slither/
+slither.db.json
+crytic-export/
+
+# Mythril
+.mythril/
+
+# Echidna
+echidna-corpus/
+
+# Local deployment artifacts
+deployments/localhost/
+
+# Broadcast logs (keep mainnet/testnet deployments)
+broadcast/*/31337/
+
+# Private keys (extra safety)
+*.key
+*.secret
+private.json
+
+# OS files
+Thumbs.db
+.DS_Store
+.Spotlight-V100
+.Trashes
